@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nikita Patil - Portfolio</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #f0f0f0;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: #1e1e1e;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #ffb400;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 100px auto 60px;
+      padding: 20px;
+    }
+
+    .block {
+      background-color: #1e1e1e;
+      padding: 30px;
+      margin-bottom: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      text-align: center;
+    }
+
+    .block img.icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+      object-fit: contain;
+    }
+
+    .block h1, .block h2 {
+      color: #ffb400;
+      margin-bottom: 20px;
+    }
+
+    .block p, .block ul {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .block ul {
+      list-style: square;
+      text-align: left;
+      padding-left: 30px;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      color: #ffb400;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e1e;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#courses">Courses</a>
+    <a href="#experience">Internships</a>
+  </nav>
+
+  <div class="container">
+
+   
+    <section id="about" class="block">
+      <img src="profile.png" alt="Nikita Patil" class="icon">
+      <h1>Nikita Patil</h1>
+      <p>I am a 2nd year Computer Engineering student with 90% academic performance. I enjoy web development, UI/UX, Java, and cybersecurity. I love designing clean user interfaces and solving real-world problems.</p>
+      <div class="contact">
+        <a href="npatil67@gmail.com">📧 Email</a>
+        <a href="https://www.linkedin.com/in/-profile/" target="_blank">🔗 LinkedIn</a>
+      </div>
+    </section>
+
+    
+    <section id="education" class="block">
+      <img src="education.png" alt="Education" class="icon">
+      <h2>Education</h2>
+      <p><strong>B.E. in Computer Engineering</strong><br>2nd Year, [Your College Name]<br>Percentage: 90%</p>
+    </section>
+
+  
+    <section id="courses" class="block">
+      <img src="course.png" alt="Courses" class="icon">
+      <h2>Courses & Certifications</h2>
+      <ul>
+        <li>SQL for Data Analysis – HP Foundation</li>
+        <li>Google Analytics – Google</li>
+        <li>Project Management – Simplilearn</li>
+        <li>Cybersecurity Internship (Ongoing)</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="block">
+      <img src="intern.png" alt="Internships" class="icon">
+      <h2>Internships & Experience</h2>
+      <ul>
+        <li><strong>SQL Intern:</strong> Real-world database project experience with queries</li>
+        <li><strong>Cybersecurity Intern:</strong> Used Tor & Kali Linux for secure system design</li>
+        <li><strong>Web Projects:</strong> Created responsive websites using HTML, CSS, JS</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2025 Nikita Patil. All rights reserved.
+  </footer>
+
+</body>
+</html>
