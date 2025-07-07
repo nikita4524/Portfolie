@@ -45,3 +45,5 @@ Custom icons/images for visual engagement
 | Documentation         | Markdown (README.md) | For GitHub documentation and portfolio description                             |
 
 
+
+<img width="1919" height="1020" alt="Image" src="https://github.com/user-attachments/assets/1a1a8073-0e67-4b48-aa3e-0454059001fc" />
